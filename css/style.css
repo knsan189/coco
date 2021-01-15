@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+body{font-family: 'Noto Sans KR', sans-serif; color:#666}
+h1{font-size: 42px; font-weight: bolder;}
+h2{font-size: 36px; font-weight: bolder; color:#000}
+h3{font-size: 24px;}
+h4{font-size: 17px; color: #000; font-weight: 500;}
+p{font-size: 14px;}
+
+.row{max-width: 1200px; margin:0 auto;}
+.top_menu{background: #f3f3f3; color:#999; font-size: 12px; text-align: right; }
+.top_menu a{padding:10px 20px; border-right:1px solid #ccc; display:inline-block; font-weight: 500;}
+.top_menu a i{padding-right:5px;}
+.top_menu a:hover{color:#000}
+#header .row h1{display: inline-block; padding:25px 0}
+#nav{float:right;}
+.depth1{padding-top:40px;}
+.depth1>li{float:left; font-size: 18px; color:#1e1e1e; font-weight: bold; padding:0 50px; position: relative;}
+.depth1>li:hover{color:#a986b0}
+.depth1>li:hover>.depth2{display: block;}
+.depth2{position: absolute; top:100%; left:0; width:100%; padding:20px 0 15px 0 ; text-align: center; z-index: 999; background: rgba(255, 255, 255, 0.8); display: none; border-radius: 10px;}
+.depth2>li{padding:8px 0; color:#000}
+.depth2>li>a{display: block;}
+.depth2>li:hover{color:#a986b0;}
+
+#section{text-align: center;}
+#section article{padding:40px 0;}
+#section article:first-child{padding-top:0;}
+.slide{color:#fff; position: relative; background: url(../img/main_img3.jpg); height:650px;}
+.slide_text{position: absolute; left:50%; top:35%; transform:translate(-50%,-50%);}
+.slide_text p{padding:30px 0 40px 0; line-height: 20px;}
+.slide_text a{border:1px solid #fff; font-size: 15px; padding:8px 35px; display:inline-block; line-height: normal; transition: ease-in 0.4s;}
+.slide_text a:hover{background: #fff; color:#333; font-weight: bold;}
+
+.title h2{padding-bottom:20px;}
+.article2 ul{padding-top:50px;}
+.article2 ul li{padding:30px; float:left; color:#fff; height:520px; width:24%; margin-right:1.3333%; text-align: left; word-break: keep-all; position: relative;}
+.article2 ul li:first-child{background:url(../img/what1.jpg); background-size: cover;}
+.article2 ul li:nth-child(2){background:url(../img/what2.jpg); background-size: cover;}
+.article2 ul li:nth-child(3){background:url(../img/what3.jpg); background-size: cover;}
+.article2 ul li:nth-child(4){background:url(../img/what4.jpg); background-size: cover; margin:0;}
+.article2 ul h3{padding-top:290px;}
+.article2 ul p{padding:20px 0 30px 0; line-height: 18px;}
+.article2 ul a{border:1px solid #fff; font-size: 11px; padding:8px 40px;}
+.article2 ul a::after{background: rgba(0, 0, 0, 0.3); content: ""; position: absolute; width:100%; height:100%; top:0; left:0; opacity: 0; transition:all 0.7s}
+.article2 ul li:hover>a::after{opacity: 1;}
+
+.article3{margin-top:40px; color:#fff; background: url(../img/intro_bg.jpg) center; height:302px; background-attachment: fixed;}
+.article3 h2{font-size: 34px; color:#fff; padding-top:45px;}
+.article3 p{padding:30px 0 40px 0;}
+.article3 a{border:1px solid #fff; padding:8px 30px; font-size: 13px; transition: ease-in 0.5s;}
+.article3 a:hover{background:#fff; color: #1a1a1a; font-weight: bold;}
+#section .article4{background: #f5f5f5; padding-top:80px;} 
+.article4 ul{padding-top:50px;}
+.article4 ul li{float:left; width:32%; margin-right:2%; margin-bottom:2%; background: #fff; border:1px solid #ccc; transition: linear 0.3s;}
+.article4 ul li:nth-child(3n){margin:0;}
+.article4 ul li h4{padding:20px;}
+.article4 ul li p{padding:0 25px 25px 25px; line-height: 24px;}
+.article4 ul li:hover{box-shadow: 1px 1px 5px 5px #ccc;}
+
+#footer{background: #333; color:#ddd; padding:30px 0; text-align: center;}
+.sns i{color:#fff; font-size: 17px; margin:0 5px;}
+.sns span{text-indent: -9999px; width:0px; height:0px; line-height: 0px; overflow: hidden; font-size:0px;}
+.copyright{font-size: 12px;padding:20px 0;}
+.copyright p{display: inline-block; line-height: 20px; padding:0 10px}
+.copyright p:last-child{display: block;}
+.privacy a{border:1px solid #fff; font-size: 11px; padding:3px 10px; display: inline-block; line-height: normal; transition: ease-in 0.5s;}
+.privacy a:hover{background: #fff; color:#1e1e1e}

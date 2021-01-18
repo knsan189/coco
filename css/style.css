@@ -70,3 +70,5 @@ p{font-size: 14px;}
 .copyright p:last-child{display: block;}
 .privacy a{border:1px solid #fff; font-size: 11px; padding:3px 10px; display: inline-block; line-height: normal; transition: ease-in 0.5s;}
 .privacy a:hover{background: #fff; color:#1e1e1e; }
+
+#top_btn{position: fixed; right:2%; bottom:5%; font-size: 32px;}

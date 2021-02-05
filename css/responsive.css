@@ -3,14 +3,14 @@
 @media screen and (max-width:1024px){
     #header{position: relative;}
     #header h1{text-align: center;}
-    #header #nav{float:none; position: absolute; width:200px; right:0; background: #fff; top:100%; transform: none;}
-    #header button{position: absolute; right:30px; top:32%; background: transparent; outline: none; border:none; display: block;}
+    #header #nav{float:none; position: absolute; width:200px; right:0; background: #fff; top:100%; transform: none; display: none;}
+    #header #nav.on{display: block;}
+    #header button{position: absolute; right:30px; top:32%; background: transparent; outline: none; border:none; display: block; z-index: 9999;}
     #header button{font-size:30px}
 
-    #header #nav .depth1>li{float: none; display: none;}
+    #header #nav .depth1>li{float: none;}
     #header #nav .depth1>li.on{display: block;}
     #header #nav .depth1>li>a{padding:none; padding-left:20px;}
     #header .depth2{display: none; position: static; text-align: left;}
     #header .depth2 li a {padding:10px 0 10px 30px}
-    
 }

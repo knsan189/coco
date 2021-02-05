@@ -8,7 +8,8 @@ body {
 }
 
 button:focus{outline:0; border:0;}
-
+#header .depth2.on {display: block;}
+#header button{display: none;}
 .row {
     max-width: 1200px;
     margin: 0 auto;
@@ -84,10 +85,6 @@ button:focus{outline:0; border:0;}
     width: 100%;
     text-align: center;
     display: none;
-}
-
-#header #nav .depth1>li:hover .depth2 {
-    display: block;
 }
 
 #header .depth2>li>a {
@@ -179,8 +176,8 @@ button:focus{outline:0; border:0;}
 .slick-active .slide_text a{animation: fadeInUp 1s both 2.2s;}
 .slick-active .slide_text {opacity: 1;}
 
-
-
+.plpa{position: absolute; top: 50%; left:59%;; background: transparent; outline: none; color:#fff; border:none}
+.plpa:focus{border:none}
 
 /* a버튼에 호버하면 배경색 background: rgba(255,255,255,0.3); */
 .article1 .slide_text a:hover {
